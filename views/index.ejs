@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ccc; /* Add a border to the table */
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Increase width and height for Description cells */
+    td:nth-child(3) {
+      width: 50%; /* Adjust width as needed */
+      height: 100px; /* Adjust height as needed */
+      overflow: auto; /* Add scrollbars if the content exceeds the height */
+    }
+  </style>
+</head>
+<body>
+  <h1>SIT722 DevOps Glossary</h1>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Term</th>
+      <th>Description</th>
+      <th>References</th>
+    </tr>
+    <% tableData.forEach(data => { %>
+      <tr>
+        <td><%= data.id %></td>
+        <td><%= data.term %></td>
+        <td><%= data.description %></td>
+        <td><%= data.references %></td>
+      </tr>
+    <% }); %>
+  </table>
+</body>
+</html>

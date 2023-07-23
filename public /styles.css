@@ -1,0 +1,22 @@
+/* Add your custom CSS styles here */
+/* For example: */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc; /* Add a border to the table */
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
