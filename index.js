@@ -64,9 +64,27 @@ const tableData = [
   { id: 29, term: 'Container Orchestration', description: 'Container Orchestration is the practice of automating the deployment, scaling, and management of containers. Tools like Docker Swarm and Kubernetes are used for container orchestration.', references: 'VMware. (2022). What is Container Orchestration? | VMware Glossary. [online] Available at: https://www.vmware.com/topics/glossary/content/container-orchestration.html#:~:text=Container%20orchestration%20is%20the%20automation.' },
 
   { id: 30, term: 'Docker Container', description: 'A Docker container is a lightweight, standalone, and executable package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.', references: 'Docker (2023). What is a Container? [online] Docker. Available at: https://www.docker.com/resources/what-container/.' },
+  //create empty boiler plate with 10 more ids
 
+  { id: 31, term: 'Terraform', description: 'Terraform is an open-source infrastructure as code (IaC) tool created by HashiCorp. It is used to define and provision infrastructure resources through code.', references: 'Hashicorp (n.d.). What is Terraform | Terraform | HashiCorp Developer. [online] What is Terraform | Terraform | HashiCorp Developer. Available at: https://developer.hashicorp.com/terraform/intro.' },
+  
+  { id: 32, term: 'Resource Group', description: 'Resource group is a Microsoft Azure based group of resources in which all the resources are stored.', references: 'mumian (n.d.). Manage resource groups - Azure portal - Azure Resource Manager. [online] learn.microsoft.com. Available at: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal.' },
 
+  { id: 33, term: 'Terraform Init', description: 'This terraform command initiates terraform in the targeted infrastructure', references: 'Command: init | Terraform | HashiCorp Developer. (n.d.). Command: init | Terraform | HashiCorp Developer. [online] Available at: https://developer.hashicorp.com/terraform/cli/commands/init# [Accessed 3 Oct. 2023].' },
 
+  { id: 34, term: 'Terraform Plan', description: 'A Terraform plan is the result of the "terraform plan" command, showing the actions Terraform will take to achieve the desired infrastructure state.', references: 'Create a Terraform plan | Terraform | HashiCorp Developer. (n.d.). Create a Terraform plan | Terraform | HashiCorp Developer. [online] Available at: https://developer.hashicorp.com/terraform/tutorials/cli/plan# [Accessed 3 Oct. 2023].' },
+
+  { id: 35, term: 'Terraform Apply', description: 'The "terraform apply" command in Terraform is used to create or modify infrastructure resources as defined in the Terraform configuration files.', references: 'Command: apply | Terraform | HashiCorp Developer. (n.d.). Command: apply | Terraform | HashiCorp Developer. [online] Available at: https://developer.hashicorp.com/terraform/cli/commands/apply.' },
+
+  { id: 36, term: 'Variable in Terraform', description: 'Variables in Terraform are placeholders for values that can be used in configurations. They enable parameterization and dynamic configurations.', references: 'Input Variables - Configuration Language | Terraform | HashiCorp Developer. (n.d.). Input Variables - Configuration Language | Terraform | HashiCorp Developer. [online] Available at: https://developer.hashicorp.com/terraform/language/values/variables [Accessed 3 Oct. 2023].' },
+  
+  { id: 37, term: 'kubectl', description: 'Kubernetes provides a command line tool for communicating with a Kubernetes cluster and that is called the kubectl.', references: 'Kubernetes. (n.d.). Command line tool (kubectl). [online] Available at: https://kubernetes.io/docs/reference/kubectl/.' },
+
+  { id: 38, term: 'Kubelet', description: 'Kubelet is a component of the kubernetes cluster that resides in all the nodes and it is responsible for taking commands from the API server to start/stop the containers accordingly.', references: 'Kubernetes. (n.d.). kubelet. [online] Available at: https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/#:~:text=Synopsis [Accessed 3 Oct. 2023].' },
+
+  { id: 39, term: 'Provider', description: 'A resource in Terraform represents a specific infrastructure component, like a virtual machine, database, or network. Resources are defined and managed using Terraform configurations.', references: 'www.google.com. (n.d.). resource in terraform - Google Search. [online] Available at: https://www.google.com/search?client=safari&rls=en&q=resource+in+terraform&ie=UTF-8&oe=UTF-8 [Accessed 3 Oct. 2023].' },
+
+  { id: 40, term: 'Docker run', description: 'It is a docker command to run the container from image develped.', references: 'Docker Documentation. (2019). docker run. [online] Available at: https://docs.docker.com/engine/reference/commandline/run/.' },
   
 
 ];
