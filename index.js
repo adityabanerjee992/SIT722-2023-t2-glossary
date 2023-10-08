@@ -85,6 +85,27 @@ const tableData = [
   { id: 39, term: 'Provider', description: 'A resource in Terraform represents a specific infrastructure component, like a virtual machine, database, or network. Resources are defined and managed using Terraform configurations.', references: 'www.google.com. (n.d.). resource in terraform - Google Search. [online] Available at: https://www.google.com/search?client=safari&rls=en&q=resource+in+terraform&ie=UTF-8&oe=UTF-8 [Accessed 3 Oct. 2023].' },
 
   { id: 40, term: 'Docker run', description: 'It is a docker command to run the container from image develped.', references: 'Docker Documentation. (2019). docker run. [online] Available at: https://docs.docker.com/engine/reference/commandline/run/.' },
+
+  { id: 41, term: 'Jira', description: 'Jira is a project management tool that helps DevOps teams track bugs, make changes to projects, and manage agile projects at scale.', references: 'Wikipedia Contributors, “Jira (software),” Wikipedia, Jul. 22, 2019. https://en.wikipedia.org/wiki/Jira_(software)' },
+
+  { id: 42, term: 'Control Plane', description: 'In the Kubernetes architecture, a control plane is the part of the cluster infrastructure in which all the APIs are handled as well as the services or workloads are scheduled to particular nodes', references: 'Kubernetes, “Production-Grade Container Orchestration,” Kubernetes.io, 2019. https://kubernetes.io/' },
+
+  { id: 43, term: 'kube-apiserver', description: 'It is control plane component that exposes the Kubernetes APIs. It is the front end of the Kubernetes control plane.', references: 'Kubernetes Components,” Kubernetes, Oct. 24, 2022. https://kubernetes.io/docs/concepts/overview/components/' },
+
+  { id: 44, term: 'kube-proxy', description: 'Kube-proxy is the Kubernetes component that gives each node in a Kubernetes cluster access to the internet.', references: 'Kubernetes, “Production-Grade Container Orchestration,” Kubernetes.io, 2019. https://kubernetes.io/' },
+
+  { id: 45, term: 'YAML', description: 'YAML is a markup language that is used to configure resources in Infrastructure as Code (IaC). Resources in YAML are differentiated by the indentation of the lines.  ', references: 'www.redhat.com. (n.d.). What is YAML? [online] Available at: https://www.redhat.com/en/topics/automation/what-is-yaml' },
+
+  { id: 46, term: 'etcd', description: 'It is highly available key value store that is used by the kubernetes cluster to store cluster data.', references: 'Kubernetes Components,” Kubernetes, Oct. 24, 2022. https://kubernetes.io/docs/concepts/overview/components/' },
+
+  { id: 47, term: 'Deployment Pipeline', description: 'Deployment pipeline refers to the pipeline that initiates and controls the deployment process of any service that need to be deployed.', references: 'Bitbucket,” Wikipedia, Apr. 05, 2020. https://en.wikipedia.org/wiki/Bitbucket' },
+
+  { id: 48, term: 'Bitbucket', description: 'Bitbucket is Git-based source code repository where users can facilitate CI/CD operations.', references: 'Bitbucket,” Wikipedia, Apr. 05, 2020. https://en.wikipedia.org/wiki/Bitbucket' },
+
+  { id: 49, term: 'Behaviour Driven Development (BDD)', description: 'BDD is an evolution of Test Driven Development and it deals with how an application or software should behave rather than how the behaviour shpuld be implemented', references: 'DevOps DevOps Terminology: A Glossary,” Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary' },
+
+  { id: 50, term: 'Complex Adaptive System (CAS)', description: 'It is a system where complete understanding of the individual components of the system does not guarantee the complete and perfect knowledge of the system behaviour', references: '“DevOps DevOps Terminology: A Glossary,” Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary' },
+
   
 
 ];
